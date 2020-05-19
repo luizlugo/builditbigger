@@ -1,0 +1,21 @@
+may 19, 2020 12:41:54 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFORMACIÓN: Overwriting system property key 'java.util.logging.config.file', value '/Users/luislugo/Documents/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/Users/luislugo/Documents/work/volcanolabs/training/ud867/FinalProject/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
+2020-05-19 12:41:55.002:INFO::main: Logging initialized @489ms to org.eclipse.jetty.util.log.StdErrLog
+2020-05-19 12:41:55.041:WARN:oejs.AbstractConnector:main: Ignoring deprecated socket close linger time
+may 19, 2020 5:41:55 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+ADVERTENCIA: Your working directory, (/Users/luislugo/Documents/work/volcanolabs/training/ud867/FinalProject/backend) is not equal to your 
+web application root (/Users/luislugo/Documents/work/volcanolabs/training/ud867/FinalProject/backend/build/exploded-backend)
+You will not be able to access files from your working directory on the production server.
+
+2020-05-19 12:41:55.261:INFO:oejs.Server:main: jetty-9.4.27.v20200227; built: 2020-02-27T18:37:21.340Z; git: a304fd9f351f337e7c0e2a7c28878dd536149c6c; jvm 1.8.0_212-release-1586-b4-5784211
+2020-05-19 12:41:55.483:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@aba625{/,file:///Users/luislugo/Documents/work/volcanolabs/training/ud867/FinalProject/backend/build/exploded-backend/,AVAILABLE}{/Users/luislugo/Documents/work/volcanolabs/training/ud867/FinalProject/backend/build/exploded-backend}
+2020-05-19 12:41:55.484:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
+2020-05-19 12:41:55.484:INFO:oejs.session:main: node0 Scavenging disabled
+2020-05-19 12:41:55.493:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@7fac631b{HTTP/1.1, (http/1.1)}{localhost:8080}
+2020-05-19 12:41:55.503:INFO:oejs.Server:main: Started @991ms
+may 19, 2020 5:41:55 PM com.google.appengine.tools.development.AbstractModule startup
+INFORMACIÓN: Module instance default is running at http://localhost:8080/
+may 19, 2020 5:41:55 PM com.google.appengine.tools.development.AbstractModule startup
+INFORMACIÓN: The admin console is running at http://localhost:8080/_ah/admin
+may 19, 2020 12:41:55 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFORMACIÓN: Dev App Server is now running
