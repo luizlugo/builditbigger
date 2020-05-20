@@ -10,7 +10,6 @@ import com.google.api.client.extensions.android.json.AndroidJsonFactory;
 import com.google.api.client.googleapis.services.AbstractGoogleClientRequest;
 import com.google.api.client.googleapis.services.GoogleClientRequestInitializer;
 import com.udacity.gradle.builditbigger.backend.myApi.MyApi;
-import com.volcanolabs.jokeslibrary.Joke;
 
 import java.io.IOException;
 
@@ -35,7 +34,7 @@ public class GetJokeAsyncTask extends AsyncTask<Void, Void, String> {
         try {
             return myApiService.getJoke().execute().getJokeString();
         } catch (IOException e) {
-            return e.getMessage();
+            return "";
         }
     }
 }

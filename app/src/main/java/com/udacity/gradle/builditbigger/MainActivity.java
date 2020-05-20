@@ -11,8 +11,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.androidjokelibrary.JokeDetailActivity;
-import com.volcanolabs.jokeslibrary.Joke;
-import com.volcanolabs.jokeslibrary.JokesFactory;
 
 
 public class MainActivity extends AppCompatActivity {
